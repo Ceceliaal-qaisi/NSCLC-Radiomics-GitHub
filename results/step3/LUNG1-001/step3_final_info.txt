@@ -1,0 +1,176 @@
+STEP 3 - FINAL BOUNDARY PROCESSING
+========================================
+
+Target resampling points: 64
+Grid size: 64 x 64
+
+Number of slices: 21
+
+Slice 65
+Original points: 28
+Resampled points: 64
+Grid points: 64
+Chain code length: 64
+First difference length: 64
+Straightness: 0.6708989227404442
+
+Slice 66
+Original points: 54
+Resampled points: 64
+Grid points: 64
+Chain code length: 64
+First difference length: 64
+Straightness: 0.4619468342870979
+
+Slice 67
+Original points: 117
+Resampled points: 64
+Grid points: 64
+Chain code length: 64
+First difference length: 64
+Straightness: 0.3268282679463071
+
+Slice 68
+Original points: 169
+Resampled points: 64
+Grid points: 64
+Chain code length: 64
+First difference length: 64
+Straightness: 0.45724187946759887
+
+Slice 69
+Original points: 199
+Resampled points: 64
+Grid points: 64
+Chain code length: 64
+First difference length: 64
+Straightness: 0.48995801310309584
+
+Slice 70
+Original points: 226
+Resampled points: 64
+Grid points: 64
+Chain code length: 64
+First difference length: 64
+Straightness: 0.4122202938545547
+
+Slice 71
+Original points: 223
+Resampled points: 64
+Grid points: 64
+Chain code length: 64
+First difference length: 64
+Straightness: 0.4650307477310404
+
+Slice 72
+Original points: 223
+Resampled points: 64
+Grid points: 64
+Chain code length: 64
+First difference length: 64
+Straightness: 0.571711112561415
+
+Slice 73
+Original points: 246
+Resampled points: 64
+Grid points: 64
+Chain code length: 64
+First difference length: 64
+Straightness: 0.5774286750428838
+
+Slice 74
+Original points: 265
+Resampled points: 64
+Grid points: 64
+Chain code length: 64
+First difference length: 64
+Straightness: 0.5938376769483503
+
+Slice 75
+Original points: 246
+Resampled points: 64
+Grid points: 64
+Chain code length: 64
+First difference length: 64
+Straightness: 0.6089373770907673
+
+Slice 76
+Original points: 247
+Resampled points: 64
+Grid points: 64
+Chain code length: 64
+First difference length: 64
+Straightness: 0.5828060183364441
+
+Slice 77
+Original points: 233
+Resampled points: 64
+Grid points: 64
+Chain code length: 64
+First difference length: 64
+Straightness: 0.6750372486248136
+
+Slice 78
+Original points: 238
+Resampled points: 64
+Grid points: 64
+Chain code length: 64
+First difference length: 64
+Straightness: 0.6471341236957652
+
+Slice 79
+Original points: 216
+Resampled points: 64
+Grid points: 64
+Chain code length: 64
+First difference length: 64
+Straightness: 0.6669645230824264
+
+Slice 80
+Original points: 222
+Resampled points: 64
+Grid points: 64
+Chain code length: 64
+First difference length: 64
+Straightness: 0.6487877623927815
+
+Slice 81
+Original points: 186
+Resampled points: 64
+Grid points: 64
+Chain code length: 64
+First difference length: 64
+Straightness: 0.6562966903792798
+
+Slice 82
+Original points: 180
+Resampled points: 64
+Grid points: 64
+Chain code length: 64
+First difference length: 64
+Straightness: 0.4946269178528878
+
+Slice 83
+Original points: 133
+Resampled points: 64
+Grid points: 64
+Chain code length: 64
+First difference length: 64
+Straightness: 0.4901532177300213
+
+Slice 84
+Original points: 39
+Resampled points: 64
+Grid points: 64
+Chain code length: 64
+First difference length: 64
+Straightness: 0.6731112675555623
+
+Slice 85
+Original points: 32
+Resampled points: 64
+Grid points: 64
+Chain code length: 64
+First difference length: 64
+Straightness: 0.6141515958543099
+
