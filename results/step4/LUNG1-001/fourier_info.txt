@@ -1,0 +1,17 @@
+STEP 4 - FOURIER DESCRIPTORS
+========================================
+
+Representation:
+z(n) = x(n) + j*y(n)
+
+Fourier transform:
+Z(k) = DFT{z(n)}
+
+Harmonic levels used for reconstruction:
+[1, 2, 4, 8, 16, 32]
+
+Interpretation:
+Low-frequency harmonics represent the global/coarse shape.
+Higher-frequency harmonics add finer boundary details and irregularities.
+
+Number of processed slices: 21

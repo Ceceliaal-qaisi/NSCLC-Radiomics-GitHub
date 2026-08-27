@@ -1,0 +1,17 @@
+FOURIER HARMONIC INTERPRETATION
+========================================
+
+1 harmonic:
+Very coarse representation of the overall shape.
+
+2-4 harmonics:
+Capture increasingly important global shape characteristics.
+
+8-16 harmonics:
+Represent major shape variations and moderate boundary irregularities.
+
+32 harmonics:
+Retain substantially more local boundary detail.
+
+Full Fourier representation:
+Reconstructs the sampled boundary with minimal truncation loss.
