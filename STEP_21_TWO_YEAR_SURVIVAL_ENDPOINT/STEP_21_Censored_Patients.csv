@@ -1,0 +1,3 @@
+Angular_Mean,Angular_Variance,GLCM_Entropy,GLCM_Homogeneity,LBP_Entropy,LBP_Mean,LBP_Variance,Spectral_Entropy,Statistical_Entropy,PatientID,age,clinical.T.Stage,Clinical.N.Stage,Clinical.M.Stage,Overall.Stage,Histology,gender,Survival.time,deadstatus.event,Two_Year_Survival
+,,,,,,,,,LUNG1-128,64.5859,3.0,1,0,IIIa,nos,female,335,0,
+70.25084424929216,2838.098144163216,5.554261949447358,0.5864894591338844,6.258108776064766,120.83377512701568,7662.950831849586,6.077058395772278,6.5174854325748885,LUNG1-406,82.1534,2.0,0,0,II,squamous cell carcinoma,male,314,0,

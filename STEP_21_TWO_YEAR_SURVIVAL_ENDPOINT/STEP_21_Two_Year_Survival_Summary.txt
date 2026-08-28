@@ -1,0 +1,33 @@
+PROJECT 7 - RADIOMICS
+STEP 21 - TWO-YEAR SURVIVAL BINARY ENDPOINT
+===========================================================================
+
+Total patients: 422
+Two-year threshold: 730 days
+
+Endpoint definition:
+Class 0 = death before 2 years
+Class 1 = alive at >= 2 years
+Censored = follow-up < 2 years without observed death
+
+Classified patients: 298
+Censored patients: 124
+
+Class 0 - Death before 2 years: 251 (84.23%)
+Class 1 - Survived >= 2 years: 47 (15.77%)
+
+Class imbalance ratio: 5.340
+
+Stable radiomic features entering Phase 3:
+- Angular_Mean
+- Angular_Variance
+- GLCM_Entropy
+- GLCM_Homogeneity
+- LBP_Entropy
+- LBP_Mean
+- LBP_Variance
+- Spectral_Entropy
+- Statistical_Entropy
+
+IMPORTANT METHODOLOGICAL RULE:
+Feature selection must be performed inside the cross-validation loop only.

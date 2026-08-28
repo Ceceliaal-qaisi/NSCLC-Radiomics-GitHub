@@ -1,0 +1,104 @@
+
+PROJECT 7 - RADIOMICS
+STEP 21 - TWO-YEAR SURVIVAL BINARY ENDPOINT
+===========================================================================
+
+INPUT DATASET
+------------------------------------------------------------------------
+Input:
+C:\Users\CeCe\Downloads\nsclc_radiomics\STEP_19_MERGED_RADIOMICS_CLINICAL\STEP_19_Final_Radiomics_Clinical_Dataset.csv
+
+Total patients:
+422
+
+Unique patients:
+422
+
+Duplicate Patient_ID rows:
+0
+
+
+TWO-YEAR ENDPOINT DEFINITION
+------------------------------------------------------------------------
+
+Threshold:
+730 days
+
+Class 0:
+Death before 2 years
+(deadstatus.event = 1 AND Survival.time < 730 days)
+
+Class 1:
+Survival for at least 2 years
+(Survival.time >= 730 days)
+
+Censored / undetermined:
+Alive with less than 730 days follow-up.
+
+
+FINAL TARGET DISTRIBUTION
+------------------------------------------------------------------------
+
+Class 0 - Death before 2 years:
+251
+
+Class 0 percentage:
+59.76%
+
+Class 1 - Survival >= 2 years:
+169
+
+Class 1 percentage:
+40.24%
+
+Censored / undetermined:
+2
+
+Total classified patients:
+420
+
+
+METHODOLOGICAL STATUS
+------------------------------------------------------------------------
+
+PASS - Patient-level samples.
+PASS - One row per patient.
+PASS - Binary two-year survival endpoint.
+PASS - Censored patients not incorrectly assigned.
+PASS - No classifier trained.
+PASS - No feature selection performed.
+PASS - No normalization performed.
+PASS - No cross-validation performed.
+
+NEXT STEP
+------------------------------------------------------------------------
+
+Create stratified patient-level 5-fold cross-validation.
+
+Feature selection must occur inside each training fold only.
+
+Normalization parameters must be fitted using training patients
+only and then applied to validation patients.
+
+DO NOT select features using the complete dataset before
+cross-validation.
+
+
+OUTPUT FILES
+------------------------------------------------------------------------
+
+Classification dataset:
+C:\Users\CeCe\Downloads\nsclc_radiomics\STEP_21_TWO_YEAR_SURVIVAL_ENDPOINT\STEP_21_Two_Year_Survival_Classification_Dataset.csv
+
+Censored patients:
+C:\Users\CeCe\Downloads\nsclc_radiomics\STEP_21_TWO_YEAR_SURVIVAL_ENDPOINT\STEP_21_Censored_Patients.csv
+
+Class distribution:
+C:\Users\CeCe\Downloads\nsclc_radiomics\STEP_21_TWO_YEAR_SURVIVAL_ENDPOINT\STEP_21_Class_Distribution.csv
+
+Summary:
+C:\Users\CeCe\Downloads\nsclc_radiomics\STEP_21_TWO_YEAR_SURVIVAL_ENDPOINT\STEP_21_Target_Summary.txt
+
+===========================================================================
+STEP 21 COMPLETE
+===========================================================================
