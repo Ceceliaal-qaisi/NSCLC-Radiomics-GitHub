@@ -1,0 +1,41 @@
+PROJECT 7 - RADIOMICS
+STEP 19 - MERGE STABLE RADIOMICS + CLINICAL DATA
+===========================================================================
+
+Radiomics patients: 422
+Clinical patients: 422
+Matched patients: 422
+
+Stable radiomic features:
+- Angular_Mean
+- Angular_Variance
+- GLCM_Entropy
+- GLCM_Homogeneity
+- LBP_Entropy
+- LBP_Mean
+- LBP_Variance
+- Spectral_Entropy
+- Statistical_Entropy
+
+Clinical columns:
+- Patient_ID
+- PatientID
+- age
+- clinical.T.Stage
+- Clinical.N.Stage
+- Clinical.M.Stage
+- Overall.Stage
+- Histology
+- gender
+- Survival.time
+- deadstatus.event
+
+Potential classification/outcome targets:
+- Survival.time
+- deadstatus.event
+- Overall.Stage
+- Histology
+
+IMPORTANT:
+The final classification target was not automatically selected.
+The available clinical/outcome variables must be reviewed before classification.

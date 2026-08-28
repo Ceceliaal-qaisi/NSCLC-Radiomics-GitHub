@@ -1,0 +1,5 @@
+Clinical_Column,Description
+Survival.time,Overall survival time
+deadstatus.event,Death/event status
+Overall.Stage,Overall clinical stage
+Histology,Tumor histology

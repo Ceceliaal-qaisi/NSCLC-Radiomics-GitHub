@@ -1,0 +1,19 @@
+PROJECT 7 - STEP 19 MERGE REPORT
+======================================================================
+
+Radiomic patients: 422
+Clinical patients: 422
+Common patients: 422
+Radiomic-only patients: 0
+Clinical-only patients: 0
+Merged patients: 422
+Final columns: 19
+
+Radiomics source:
+C:\Users\CeCe\Downloads\nsclc_radiomics\STEP_15_FINAL_FEATURE_MATRIX_FIXED\STEP_15_FIXED_Final_Stable_Feature_Matrix.csv
+
+Clinical source:
+C:\Users\CeCe\Downloads\nsclc_radiomics\STEP_18_CORRECT_CLINICAL_DATASET\STEP_18_Correct_Clinical_Dataset.csv
+
+Output:
+C:\Users\CeCe\Downloads\nsclc_radiomics\STEP_19_MERGED_RADIOMICS_CLINICAL\STEP_19_Final_Radiomics_Clinical_Dataset.csv
