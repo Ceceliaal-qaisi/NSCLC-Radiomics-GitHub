@@ -1,0 +1,470 @@
+PROJECT 7 - RADIOMICS
+STEP 13 - SPECTRAL TEXTURE - ALL PATIENTS
+===========================================================================
+
+TOTAL PATIENTS: 422
+SUCCESSFUL PATIENTS: 420
+FAILED PATIENTS: 2
+SUCCESS RATE: 99.53%
+
+SPECTRAL FEATURES
+---------------------------------------------------------------------------
+Spectral_Energy
+Spectral_Entropy
+Dominant_Frequency
+Fundamental_Period
+Dominant_Orientation
+Radial_Mean
+Radial_Variance
+Radial_Peak_Frequency
+Angular_Mean
+Angular_Variance
+Angular_Peak_Orientation
+
+METHOD
+---------------------------------------------------------------------------
+2-D Fourier transform was applied to the tumor-region image patch.
+Background pixels were replaced by the tumor-region mean intensity.
+The DC component was removed before spectral analysis.
+The Fourier power spectrum was analyzed using radial and angular frequency coordinates.
+Patient-level values were calculated as the mean of the valid tumor-containing CT slices.
+No skimage texture functions were used.
+
+FEATURE COVERAGE
+---------------------------------------------------------------------------
+Spectral_Energy: 420/422 (99.53%)
+Spectral_Entropy: 420/422 (99.53%)
+Dominant_Frequency: 420/422 (99.53%)
+Fundamental_Period: 420/422 (99.53%)
+Dominant_Orientation: 420/422 (99.53%)
+Radial_Mean: 420/422 (99.53%)
+Radial_Variance: 420/422 (99.53%)
+Radial_Peak_Frequency: 420/422 (99.53%)
+Angular_Mean: 420/422 (99.53%)
+Angular_Variance: 420/422 (99.53%)
+Angular_Peak_Orientation: 420/422 (99.53%)
+
+PROCESSING STATUS
+---------------------------------------------------------------------------
+LUNG1-001 | SUCCESS | Spectral texture calculated
+LUNG1-002 | SUCCESS | Spectral texture calculated
+LUNG1-003 | SUCCESS | Spectral texture calculated
+LUNG1-004 | SUCCESS | Spectral texture calculated
+LUNG1-005 | SUCCESS | Spectral texture calculated
+LUNG1-006 | SUCCESS | Spectral texture calculated
+LUNG1-007 | SUCCESS | Spectral texture calculated
+LUNG1-008 | SUCCESS | Spectral texture calculated
+LUNG1-009 | SUCCESS | Spectral texture calculated
+LUNG1-010 | SUCCESS | Spectral texture calculated
+LUNG1-011 | SUCCESS | Spectral texture calculated
+LUNG1-012 | SUCCESS | Spectral texture calculated
+LUNG1-013 | SUCCESS | Spectral texture calculated
+LUNG1-014 | SUCCESS | Spectral texture calculated
+LUNG1-015 | SUCCESS | Spectral texture calculated
+LUNG1-016 | SUCCESS | Spectral texture calculated
+LUNG1-017 | SUCCESS | Spectral texture calculated
+LUNG1-018 | SUCCESS | Spectral texture calculated
+LUNG1-019 | SUCCESS | Spectral texture calculated
+LUNG1-020 | SUCCESS | Spectral texture calculated
+LUNG1-021 | SUCCESS | Spectral texture calculated
+LUNG1-022 | SUCCESS | Spectral texture calculated
+LUNG1-023 | SUCCESS | Spectral texture calculated
+LUNG1-024 | FAILED | GTV1_MASK_NOT_FOUND
+LUNG1-025 | SUCCESS | Spectral texture calculated
+LUNG1-026 | SUCCESS | Spectral texture calculated
+LUNG1-027 | SUCCESS | Spectral texture calculated
+LUNG1-028 | SUCCESS | Spectral texture calculated
+LUNG1-029 | SUCCESS | Spectral texture calculated
+LUNG1-030 | SUCCESS | Spectral texture calculated
+LUNG1-031 | SUCCESS | Spectral texture calculated
+LUNG1-032 | SUCCESS | Spectral texture calculated
+LUNG1-033 | SUCCESS | Spectral texture calculated
+LUNG1-034 | SUCCESS | Spectral texture calculated
+LUNG1-035 | SUCCESS | Spectral texture calculated
+LUNG1-036 | SUCCESS | Spectral texture calculated
+LUNG1-037 | SUCCESS | Spectral texture calculated
+LUNG1-038 | SUCCESS | Spectral texture calculated
+LUNG1-039 | SUCCESS | Spectral texture calculated
+LUNG1-040 | SUCCESS | Spectral texture calculated
+LUNG1-041 | SUCCESS | Spectral texture calculated
+LUNG1-042 | SUCCESS | Spectral texture calculated
+LUNG1-043 | SUCCESS | Spectral texture calculated
+LUNG1-044 | SUCCESS | Spectral texture calculated
+LUNG1-045 | SUCCESS | Spectral texture calculated
+LUNG1-046 | SUCCESS | Spectral texture calculated
+LUNG1-047 | SUCCESS | Spectral texture calculated
+LUNG1-048 | SUCCESS | Spectral texture calculated
+LUNG1-049 | SUCCESS | Spectral texture calculated
+LUNG1-050 | SUCCESS | Spectral texture calculated
+LUNG1-051 | SUCCESS | Spectral texture calculated
+LUNG1-052 | SUCCESS | Spectral texture calculated
+LUNG1-053 | SUCCESS | Spectral texture calculated
+LUNG1-054 | SUCCESS | Spectral texture calculated
+LUNG1-055 | SUCCESS | Spectral texture calculated
+LUNG1-056 | SUCCESS | Spectral texture calculated
+LUNG1-057 | SUCCESS | Spectral texture calculated
+LUNG1-058 | SUCCESS | Spectral texture calculated
+LUNG1-059 | SUCCESS | Spectral texture calculated
+LUNG1-060 | SUCCESS | Spectral texture calculated
+LUNG1-061 | SUCCESS | Spectral texture calculated
+LUNG1-062 | SUCCESS | Spectral texture calculated
+LUNG1-063 | SUCCESS | Spectral texture calculated
+LUNG1-064 | SUCCESS | Spectral texture calculated
+LUNG1-065 | SUCCESS | Spectral texture calculated
+LUNG1-066 | SUCCESS | Spectral texture calculated
+LUNG1-067 | SUCCESS | Spectral texture calculated
+LUNG1-068 | SUCCESS | Spectral texture calculated
+LUNG1-069 | SUCCESS | Spectral texture calculated
+LUNG1-070 | SUCCESS | Spectral texture calculated
+LUNG1-071 | SUCCESS | Spectral texture calculated
+LUNG1-072 | SUCCESS | Spectral texture calculated
+LUNG1-073 | SUCCESS | Spectral texture calculated
+LUNG1-074 | SUCCESS | Spectral texture calculated
+LUNG1-075 | SUCCESS | Spectral texture calculated
+LUNG1-076 | SUCCESS | Spectral texture calculated
+LUNG1-077 | SUCCESS | Spectral texture calculated
+LUNG1-078 | SUCCESS | Spectral texture calculated
+LUNG1-079 | SUCCESS | Spectral texture calculated
+LUNG1-080 | SUCCESS | Spectral texture calculated
+LUNG1-081 | SUCCESS | Spectral texture calculated
+LUNG1-082 | SUCCESS | Spectral texture calculated
+LUNG1-083 | SUCCESS | Spectral texture calculated
+LUNG1-084 | SUCCESS | Spectral texture calculated
+LUNG1-085 | SUCCESS | Spectral texture calculated
+LUNG1-086 | SUCCESS | Spectral texture calculated
+LUNG1-087 | SUCCESS | Spectral texture calculated
+LUNG1-088 | SUCCESS | Spectral texture calculated
+LUNG1-089 | SUCCESS | Spectral texture calculated
+LUNG1-090 | SUCCESS | Spectral texture calculated
+LUNG1-091 | SUCCESS | Spectral texture calculated
+LUNG1-092 | SUCCESS | Spectral texture calculated
+LUNG1-093 | SUCCESS | Spectral texture calculated
+LUNG1-094 | SUCCESS | Spectral texture calculated
+LUNG1-095 | SUCCESS | Spectral texture calculated
+LUNG1-096 | SUCCESS | Spectral texture calculated
+LUNG1-097 | SUCCESS | Spectral texture calculated
+LUNG1-098 | SUCCESS | Spectral texture calculated
+LUNG1-099 | SUCCESS | Spectral texture calculated
+LUNG1-100 | SUCCESS | Spectral texture calculated
+LUNG1-101 | SUCCESS | Spectral texture calculated
+LUNG1-102 | SUCCESS | Spectral texture calculated
+LUNG1-103 | SUCCESS | Spectral texture calculated
+LUNG1-104 | SUCCESS | Spectral texture calculated
+LUNG1-105 | SUCCESS | Spectral texture calculated
+LUNG1-106 | SUCCESS | Spectral texture calculated
+LUNG1-107 | SUCCESS | Spectral texture calculated
+LUNG1-108 | SUCCESS | Spectral texture calculated
+LUNG1-109 | SUCCESS | Spectral texture calculated
+LUNG1-110 | SUCCESS | Spectral texture calculated
+LUNG1-111 | SUCCESS | Spectral texture calculated
+LUNG1-112 | SUCCESS | Spectral texture calculated
+LUNG1-113 | SUCCESS | Spectral texture calculated
+LUNG1-114 | SUCCESS | Spectral texture calculated
+LUNG1-115 | SUCCESS | Spectral texture calculated
+LUNG1-116 | SUCCESS | Spectral texture calculated
+LUNG1-117 | SUCCESS | Spectral texture calculated
+LUNG1-118 | SUCCESS | Spectral texture calculated
+LUNG1-119 | SUCCESS | Spectral texture calculated
+LUNG1-120 | SUCCESS | Spectral texture calculated
+LUNG1-121 | SUCCESS | Spectral texture calculated
+LUNG1-122 | SUCCESS | Spectral texture calculated
+LUNG1-123 | SUCCESS | Spectral texture calculated
+LUNG1-124 | SUCCESS | Spectral texture calculated
+LUNG1-125 | SUCCESS | Spectral texture calculated
+LUNG1-126 | SUCCESS | Spectral texture calculated
+LUNG1-127 | SUCCESS | Spectral texture calculated
+LUNG1-128 | FAILED | GTV1_MASK_NOT_FOUND
+LUNG1-129 | SUCCESS | Spectral texture calculated
+LUNG1-130 | SUCCESS | Spectral texture calculated
+LUNG1-131 | SUCCESS | Spectral texture calculated
+LUNG1-132 | SUCCESS | Spectral texture calculated
+LUNG1-133 | SUCCESS | Spectral texture calculated
+LUNG1-134 | SUCCESS | Spectral texture calculated
+LUNG1-135 | SUCCESS | Spectral texture calculated
+LUNG1-136 | SUCCESS | Spectral texture calculated
+LUNG1-137 | SUCCESS | Spectral texture calculated
+LUNG1-138 | SUCCESS | Spectral texture calculated
+LUNG1-139 | SUCCESS | Spectral texture calculated
+LUNG1-140 | SUCCESS | Spectral texture calculated
+LUNG1-141 | SUCCESS | Spectral texture calculated
+LUNG1-142 | SUCCESS | Spectral texture calculated
+LUNG1-143 | SUCCESS | Spectral texture calculated
+LUNG1-144 | SUCCESS | Spectral texture calculated
+LUNG1-145 | SUCCESS | Spectral texture calculated
+LUNG1-146 | SUCCESS | Spectral texture calculated
+LUNG1-147 | SUCCESS | Spectral texture calculated
+LUNG1-148 | SUCCESS | Spectral texture calculated
+LUNG1-149 | SUCCESS | Spectral texture calculated
+LUNG1-150 | SUCCESS | Spectral texture calculated
+LUNG1-151 | SUCCESS | Spectral texture calculated
+LUNG1-152 | SUCCESS | Spectral texture calculated
+LUNG1-153 | SUCCESS | Spectral texture calculated
+LUNG1-154 | SUCCESS | Spectral texture calculated
+LUNG1-155 | SUCCESS | Spectral texture calculated
+LUNG1-156 | SUCCESS | Spectral texture calculated
+LUNG1-157 | SUCCESS | Spectral texture calculated
+LUNG1-158 | SUCCESS | Spectral texture calculated
+LUNG1-159 | SUCCESS | Spectral texture calculated
+LUNG1-160 | SUCCESS | Spectral texture calculated
+LUNG1-161 | SUCCESS | Spectral texture calculated
+LUNG1-162 | SUCCESS | Spectral texture calculated
+LUNG1-163 | SUCCESS | Spectral texture calculated
+LUNG1-164 | SUCCESS | Spectral texture calculated
+LUNG1-165 | SUCCESS | Spectral texture calculated
+LUNG1-166 | SUCCESS | Spectral texture calculated
+LUNG1-167 | SUCCESS | Spectral texture calculated
+LUNG1-168 | SUCCESS | Spectral texture calculated
+LUNG1-169 | SUCCESS | Spectral texture calculated
+LUNG1-170 | SUCCESS | Spectral texture calculated
+LUNG1-171 | SUCCESS | Spectral texture calculated
+LUNG1-172 | SUCCESS | Spectral texture calculated
+LUNG1-173 | SUCCESS | Spectral texture calculated
+LUNG1-174 | SUCCESS | Spectral texture calculated
+LUNG1-175 | SUCCESS | Spectral texture calculated
+LUNG1-176 | SUCCESS | Spectral texture calculated
+LUNG1-177 | SUCCESS | Spectral texture calculated
+LUNG1-178 | SUCCESS | Spectral texture calculated
+LUNG1-179 | SUCCESS | Spectral texture calculated
+LUNG1-180 | SUCCESS | Spectral texture calculated
+LUNG1-181 | SUCCESS | Spectral texture calculated
+LUNG1-182 | SUCCESS | Spectral texture calculated
+LUNG1-183 | SUCCESS | Spectral texture calculated
+LUNG1-184 | SUCCESS | Spectral texture calculated
+LUNG1-185 | SUCCESS | Spectral texture calculated
+LUNG1-186 | SUCCESS | Spectral texture calculated
+LUNG1-187 | SUCCESS | Spectral texture calculated
+LUNG1-188 | SUCCESS | Spectral texture calculated
+LUNG1-189 | SUCCESS | Spectral texture calculated
+LUNG1-190 | SUCCESS | Spectral texture calculated
+LUNG1-191 | SUCCESS | Spectral texture calculated
+LUNG1-192 | SUCCESS | Spectral texture calculated
+LUNG1-193 | SUCCESS | Spectral texture calculated
+LUNG1-194 | SUCCESS | Spectral texture calculated
+LUNG1-195 | SUCCESS | Spectral texture calculated
+LUNG1-196 | SUCCESS | Spectral texture calculated
+LUNG1-197 | SUCCESS | Spectral texture calculated
+LUNG1-198 | SUCCESS | Spectral texture calculated
+LUNG1-199 | SUCCESS | Spectral texture calculated
+LUNG1-200 | SUCCESS | Spectral texture calculated
+LUNG1-201 | SUCCESS | Spectral texture calculated
+LUNG1-202 | SUCCESS | Spectral texture calculated
+LUNG1-203 | SUCCESS | Spectral texture calculated
+LUNG1-204 | SUCCESS | Spectral texture calculated
+LUNG1-205 | SUCCESS | Spectral texture calculated
+LUNG1-206 | SUCCESS | Spectral texture calculated
+LUNG1-207 | SUCCESS | Spectral texture calculated
+LUNG1-208 | SUCCESS | Spectral texture calculated
+LUNG1-209 | SUCCESS | Spectral texture calculated
+LUNG1-210 | SUCCESS | Spectral texture calculated
+LUNG1-211 | SUCCESS | Spectral texture calculated
+LUNG1-212 | SUCCESS | Spectral texture calculated
+LUNG1-213 | SUCCESS | Spectral texture calculated
+LUNG1-214 | SUCCESS | Spectral texture calculated
+LUNG1-215 | SUCCESS | Spectral texture calculated
+LUNG1-216 | SUCCESS | Spectral texture calculated
+LUNG1-217 | SUCCESS | Spectral texture calculated
+LUNG1-218 | SUCCESS | Spectral texture calculated
+LUNG1-219 | SUCCESS | Spectral texture calculated
+LUNG1-220 | SUCCESS | Spectral texture calculated
+LUNG1-221 | SUCCESS | Spectral texture calculated
+LUNG1-222 | SUCCESS | Spectral texture calculated
+LUNG1-223 | SUCCESS | Spectral texture calculated
+LUNG1-224 | SUCCESS | Spectral texture calculated
+LUNG1-225 | SUCCESS | Spectral texture calculated
+LUNG1-226 | SUCCESS | Spectral texture calculated
+LUNG1-227 | SUCCESS | Spectral texture calculated
+LUNG1-228 | SUCCESS | Spectral texture calculated
+LUNG1-229 | SUCCESS | Spectral texture calculated
+LUNG1-230 | SUCCESS | Spectral texture calculated
+LUNG1-231 | SUCCESS | Spectral texture calculated
+LUNG1-232 | SUCCESS | Spectral texture calculated
+LUNG1-233 | SUCCESS | Spectral texture calculated
+LUNG1-234 | SUCCESS | Spectral texture calculated
+LUNG1-235 | SUCCESS | Spectral texture calculated
+LUNG1-236 | SUCCESS | Spectral texture calculated
+LUNG1-237 | SUCCESS | Spectral texture calculated
+LUNG1-238 | SUCCESS | Spectral texture calculated
+LUNG1-239 | SUCCESS | Spectral texture calculated
+LUNG1-240 | SUCCESS | Spectral texture calculated
+LUNG1-241 | SUCCESS | Spectral texture calculated
+LUNG1-242 | SUCCESS | Spectral texture calculated
+LUNG1-243 | SUCCESS | Spectral texture calculated
+LUNG1-244 | SUCCESS | Spectral texture calculated
+LUNG1-245 | SUCCESS | Spectral texture calculated
+LUNG1-246 | SUCCESS | Spectral texture calculated
+LUNG1-247 | SUCCESS | Spectral texture calculated
+LUNG1-248 | SUCCESS | Spectral texture calculated
+LUNG1-249 | SUCCESS | Spectral texture calculated
+LUNG1-250 | SUCCESS | Spectral texture calculated
+LUNG1-251 | SUCCESS | Spectral texture calculated
+LUNG1-252 | SUCCESS | Spectral texture calculated
+LUNG1-253 | SUCCESS | Spectral texture calculated
+LUNG1-254 | SUCCESS | Spectral texture calculated
+LUNG1-255 | SUCCESS | Spectral texture calculated
+LUNG1-256 | SUCCESS | Spectral texture calculated
+LUNG1-257 | SUCCESS | Spectral texture calculated
+LUNG1-258 | SUCCESS | Spectral texture calculated
+LUNG1-259 | SUCCESS | Spectral texture calculated
+LUNG1-260 | SUCCESS | Spectral texture calculated
+LUNG1-261 | SUCCESS | Spectral texture calculated
+LUNG1-262 | SUCCESS | Spectral texture calculated
+LUNG1-263 | SUCCESS | Spectral texture calculated
+LUNG1-264 | SUCCESS | Spectral texture calculated
+LUNG1-265 | SUCCESS | Spectral texture calculated
+LUNG1-266 | SUCCESS | Spectral texture calculated
+LUNG1-267 | SUCCESS | Spectral texture calculated
+LUNG1-268 | SUCCESS | Spectral texture calculated
+LUNG1-269 | SUCCESS | Spectral texture calculated
+LUNG1-270 | SUCCESS | Spectral texture calculated
+LUNG1-271 | SUCCESS | Spectral texture calculated
+LUNG1-272 | SUCCESS | Spectral texture calculated
+LUNG1-273 | SUCCESS | Spectral texture calculated
+LUNG1-274 | SUCCESS | Spectral texture calculated
+LUNG1-275 | SUCCESS | Spectral texture calculated
+LUNG1-276 | SUCCESS | Spectral texture calculated
+LUNG1-277 | SUCCESS | Spectral texture calculated
+LUNG1-278 | SUCCESS | Spectral texture calculated
+LUNG1-279 | SUCCESS | Spectral texture calculated
+LUNG1-280 | SUCCESS | Spectral texture calculated
+LUNG1-281 | SUCCESS | Spectral texture calculated
+LUNG1-282 | SUCCESS | Spectral texture calculated
+LUNG1-283 | SUCCESS | Spectral texture calculated
+LUNG1-284 | SUCCESS | Spectral texture calculated
+LUNG1-285 | SUCCESS | Spectral texture calculated
+LUNG1-286 | SUCCESS | Spectral texture calculated
+LUNG1-287 | SUCCESS | Spectral texture calculated
+LUNG1-288 | SUCCESS | Spectral texture calculated
+LUNG1-289 | SUCCESS | Spectral texture calculated
+LUNG1-290 | SUCCESS | Spectral texture calculated
+LUNG1-291 | SUCCESS | Spectral texture calculated
+LUNG1-292 | SUCCESS | Spectral texture calculated
+LUNG1-293 | SUCCESS | Spectral texture calculated
+LUNG1-294 | SUCCESS | Spectral texture calculated
+LUNG1-295 | SUCCESS | Spectral texture calculated
+LUNG1-296 | SUCCESS | Spectral texture calculated
+LUNG1-297 | SUCCESS | Spectral texture calculated
+LUNG1-298 | SUCCESS | Spectral texture calculated
+LUNG1-299 | SUCCESS | Spectral texture calculated
+LUNG1-300 | SUCCESS | Spectral texture calculated
+LUNG1-301 | SUCCESS | Spectral texture calculated
+LUNG1-302 | SUCCESS | Spectral texture calculated
+LUNG1-303 | SUCCESS | Spectral texture calculated
+LUNG1-304 | SUCCESS | Spectral texture calculated
+LUNG1-305 | SUCCESS | Spectral texture calculated
+LUNG1-306 | SUCCESS | Spectral texture calculated
+LUNG1-307 | SUCCESS | Spectral texture calculated
+LUNG1-308 | SUCCESS | Spectral texture calculated
+LUNG1-309 | SUCCESS | Spectral texture calculated
+LUNG1-310 | SUCCESS | Spectral texture calculated
+LUNG1-311 | SUCCESS | Spectral texture calculated
+LUNG1-312 | SUCCESS | Spectral texture calculated
+LUNG1-313 | SUCCESS | Spectral texture calculated
+LUNG1-314 | SUCCESS | Spectral texture calculated
+LUNG1-315 | SUCCESS | Spectral texture calculated
+LUNG1-316 | SUCCESS | Spectral texture calculated
+LUNG1-317 | SUCCESS | Spectral texture calculated
+LUNG1-318 | SUCCESS | Spectral texture calculated
+LUNG1-319 | SUCCESS | Spectral texture calculated
+LUNG1-320 | SUCCESS | Spectral texture calculated
+LUNG1-321 | SUCCESS | Spectral texture calculated
+LUNG1-322 | SUCCESS | Spectral texture calculated
+LUNG1-323 | SUCCESS | Spectral texture calculated
+LUNG1-324 | SUCCESS | Spectral texture calculated
+LUNG1-325 | SUCCESS | Spectral texture calculated
+LUNG1-326 | SUCCESS | Spectral texture calculated
+LUNG1-327 | SUCCESS | Spectral texture calculated
+LUNG1-328 | SUCCESS | Spectral texture calculated
+LUNG1-329 | SUCCESS | Spectral texture calculated
+LUNG1-330 | SUCCESS | Spectral texture calculated
+LUNG1-331 | SUCCESS | Spectral texture calculated
+LUNG1-332 | SUCCESS | Spectral texture calculated
+LUNG1-333 | SUCCESS | Spectral texture calculated
+LUNG1-334 | SUCCESS | Spectral texture calculated
+LUNG1-335 | SUCCESS | Spectral texture calculated
+LUNG1-336 | SUCCESS | Spectral texture calculated
+LUNG1-337 | SUCCESS | Spectral texture calculated
+LUNG1-338 | SUCCESS | Spectral texture calculated
+LUNG1-339 | SUCCESS | Spectral texture calculated
+LUNG1-340 | SUCCESS | Spectral texture calculated
+LUNG1-341 | SUCCESS | Spectral texture calculated
+LUNG1-342 | SUCCESS | Spectral texture calculated
+LUNG1-343 | SUCCESS | Spectral texture calculated
+LUNG1-344 | SUCCESS | Spectral texture calculated
+LUNG1-345 | SUCCESS | Spectral texture calculated
+LUNG1-346 | SUCCESS | Spectral texture calculated
+LUNG1-347 | SUCCESS | Spectral texture calculated
+LUNG1-348 | SUCCESS | Spectral texture calculated
+LUNG1-349 | SUCCESS | Spectral texture calculated
+LUNG1-350 | SUCCESS | Spectral texture calculated
+LUNG1-351 | SUCCESS | Spectral texture calculated
+LUNG1-352 | SUCCESS | Spectral texture calculated
+LUNG1-353 | SUCCESS | Spectral texture calculated
+LUNG1-354 | SUCCESS | Spectral texture calculated
+LUNG1-355 | SUCCESS | Spectral texture calculated
+LUNG1-356 | SUCCESS | Spectral texture calculated
+LUNG1-357 | SUCCESS | Spectral texture calculated
+LUNG1-358 | SUCCESS | Spectral texture calculated
+LUNG1-359 | SUCCESS | Spectral texture calculated
+LUNG1-360 | SUCCESS | Spectral texture calculated
+LUNG1-361 | SUCCESS | Spectral texture calculated
+LUNG1-362 | SUCCESS | Spectral texture calculated
+LUNG1-363 | SUCCESS | Spectral texture calculated
+LUNG1-364 | SUCCESS | Spectral texture calculated
+LUNG1-365 | SUCCESS | Spectral texture calculated
+LUNG1-366 | SUCCESS | Spectral texture calculated
+LUNG1-367 | SUCCESS | Spectral texture calculated
+LUNG1-368 | SUCCESS | Spectral texture calculated
+LUNG1-369 | SUCCESS | Spectral texture calculated
+LUNG1-370 | SUCCESS | Spectral texture calculated
+LUNG1-371 | SUCCESS | Spectral texture calculated
+LUNG1-372 | SUCCESS | Spectral texture calculated
+LUNG1-373 | SUCCESS | Spectral texture calculated
+LUNG1-374 | SUCCESS | Spectral texture calculated
+LUNG1-375 | SUCCESS | Spectral texture calculated
+LUNG1-376 | SUCCESS | Spectral texture calculated
+LUNG1-377 | SUCCESS | Spectral texture calculated
+LUNG1-378 | SUCCESS | Spectral texture calculated
+LUNG1-379 | SUCCESS | Spectral texture calculated
+LUNG1-380 | SUCCESS | Spectral texture calculated
+LUNG1-381 | SUCCESS | Spectral texture calculated
+LUNG1-382 | SUCCESS | Spectral texture calculated
+LUNG1-383 | SUCCESS | Spectral texture calculated
+LUNG1-384 | SUCCESS | Spectral texture calculated
+LUNG1-385 | SUCCESS | Spectral texture calculated
+LUNG1-386 | SUCCESS | Spectral texture calculated
+LUNG1-387 | SUCCESS | Spectral texture calculated
+LUNG1-388 | SUCCESS | Spectral texture calculated
+LUNG1-389 | SUCCESS | Spectral texture calculated
+LUNG1-390 | SUCCESS | Spectral texture calculated
+LUNG1-391 | SUCCESS | Spectral texture calculated
+LUNG1-392 | SUCCESS | Spectral texture calculated
+LUNG1-393 | SUCCESS | Spectral texture calculated
+LUNG1-394 | SUCCESS | Spectral texture calculated
+LUNG1-395 | SUCCESS | Spectral texture calculated
+LUNG1-396 | SUCCESS | Spectral texture calculated
+LUNG1-397 | SUCCESS | Spectral texture calculated
+LUNG1-398 | SUCCESS | Spectral texture calculated
+LUNG1-399 | SUCCESS | Spectral texture calculated
+LUNG1-400 | SUCCESS | Spectral texture calculated
+LUNG1-401 | SUCCESS | Spectral texture calculated
+LUNG1-402 | SUCCESS | Spectral texture calculated
+LUNG1-403 | SUCCESS | Spectral texture calculated
+LUNG1-404 | SUCCESS | Spectral texture calculated
+LUNG1-405 | SUCCESS | Spectral texture calculated
+LUNG1-406 | SUCCESS | Spectral texture calculated
+LUNG1-407 | SUCCESS | Spectral texture calculated
+LUNG1-408 | SUCCESS | Spectral texture calculated
+LUNG1-409 | SUCCESS | Spectral texture calculated
+LUNG1-410 | SUCCESS | Spectral texture calculated
+LUNG1-411 | SUCCESS | Spectral texture calculated
+LUNG1-412 | SUCCESS | Spectral texture calculated
+LUNG1-413 | SUCCESS | Spectral texture calculated
+LUNG1-414 | SUCCESS | Spectral texture calculated
+LUNG1-415 | SUCCESS | Spectral texture calculated
+LUNG1-416 | SUCCESS | Spectral texture calculated
+LUNG1-417 | SUCCESS | Spectral texture calculated
+LUNG1-418 | SUCCESS | Spectral texture calculated
+LUNG1-419 | SUCCESS | Spectral texture calculated
+LUNG1-420 | SUCCESS | Spectral texture calculated
+LUNG1-421 | SUCCESS | Spectral texture calculated
+LUNG1-422 | SUCCESS | Spectral texture calculated
