@@ -1,0 +1,65 @@
+PROJECT 7 - RADIOMICS
+STEP 26 - RBF SVM CLASSIFIER
+===========================================================================
+
+METHODOLOGY
+---------------------------------------------------------------------------
+Endpoint: Two-Year Survival
+Classifier: Support Vector Machine
+Kernel: RBF
+C: 1.0
+Gamma: scale
+Cross-validation: Stratified patient-level 5-fold CV
+Fold assignments: STEP 22
+Random seed: 42
+Feature selection: SelectKBest ANOVA F-test
+Feature selection performed inside each training fold.
+Normalization: StandardScaler
+Normalization fitted using training patients only.
+Data leakage prevention: Yes
+
+DATASET
+---------------------------------------------------------------------------
+Original STEP 21 patients: 420
+Usable patients evaluated: 419
+Excluded patients: 1
+Class 0: 251
+Class 1: 168
+
+OVERALL OUT-OF-FOLD RESULTS
+---------------------------------------------------------------------------
+Patients evaluated: 419
+Accuracy: 0.579952
+Sensitivity: 0.172619
+Specificity: 0.852590
+AUC: 0.535738
+TN: 214
+FP: 37
+FN: 139
+TP: 29
+
+FOLD RESULTS
+---------------------------------------------------------------------------
+ Fold  Training_Patients  Validation_Patients  Selected_Feature_Count  Accuracy  Sensitivity  Specificity      AUC  TN  FP  FN  TP
+    1                334                   85                       5  0.552941     0.411765     0.647059 0.558535  33  18  20  14
+    2                336                   83                       5  0.542169     0.151515     0.800000 0.475455  40  10  28   5
+    3                335                   84                       5  0.547619     0.000000     0.920000 0.615294  46   4  34   0
+    4                335                   84                       5  0.642857     0.147059     0.980000 0.652941  49   1  29   5
+    5                336                   83                       5  0.614458     0.151515     0.920000 0.658788  46   4  28   5
+
+FEATURE SELECTION BY FOLD
+---------------------------------------------------------------------------
+Fold 1: GLCM_Entropy, GLCM_Homogeneity, LBP_Entropy, LBP_Variance, Statistical_Entropy
+Fold 2: GLCM_Entropy, GLCM_Homogeneity, LBP_Entropy, LBP_Variance, Statistical_Entropy
+Fold 3: GLCM_Entropy, GLCM_Homogeneity, LBP_Entropy, LBP_Variance, Statistical_Entropy
+Fold 4: GLCM_Entropy, GLCM_Homogeneity, LBP_Entropy, LBP_Variance, Statistical_Entropy
+Fold 5: GLCM_Entropy, GLCM_Homogeneity, LBP_Entropy, LBP_Variance, Statistical_Entropy
+
+METHODOLOGICAL NOTE
+---------------------------------------------------------------------------
+The STEP 22 file contains multiple rows per patient because each patient has a training/validation role for each cross-validation fold.
+The validation row was used to determine the single patient-level fold assignment.
+Feature selection was performed independently inside each training fold.
+Standardization was fitted independently inside each training fold.
+Validation patients were never used during feature selection or normalization.
+Therefore, the reported predictions are out-of-fold patient-level predictions.

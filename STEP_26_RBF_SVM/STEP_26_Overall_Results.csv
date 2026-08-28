@@ -1,0 +1,2 @@
+Classifier,Patients_Evaluated,Accuracy,Sensitivity,Specificity,AUC,TN,FP,FN,TP,Kernel,C,Gamma,Number_of_Folds,Random_Seed,Feature_Selection,Selected_Features_Per_Fold,Normalization,Data_Leakage_Prevention
+RBF SVM,419,0.5799522673031027,0.17261904761904762,0.852589641434263,0.5357380003794346,214,37,139,29,RBF,1.0,scale,5,42,SelectKBest ANOVA F-test inside training fold,5,StandardScaler fitted inside training fold,Yes
