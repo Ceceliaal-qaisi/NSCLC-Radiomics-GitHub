@@ -1,0 +1,79 @@
+PROJECT 7 - RADIOMICS
+STEP 14 - FEATURE STABILITY ANALYSIS
+===========================================================================
+
+Total patients: 422
+Successful patients: 420
+Failed patients: 2
+Success rate: 99.53%
+
+PERTURBATIONS
+---------------------------------------------------------------------------
+Erode 1 voxel
+Dilate 1 voxel
+Erode 2 voxels
+Dilate 2 voxels
+
+STABILITY CRITERION
+---------------------------------------------------------------------------
+Patient-level feature change <= 10% was considered stable.
+A feature was retained when it was stable in at least 80% of valid comparisons.
+
+FINAL FEATURE DECISIONS
+---------------------------------------------------------------------------
+Angular_Mean | STABLE | Stability: 98.93% | Mean change: 1.82% | Max change: 17.74%
+Angular_Variance | STABLE | Stability: 91.85% | Mean change: 3.92% | Max change: 72.38%
+Dominant_Frequency | UNSTABLE_EXCLUDE | Stability: 29.05% | Mean change: 25.18% | Max change: 240.75%
+Dominant_Orientation | UNSTABLE_EXCLUDE | Stability: 62.44% | Mean change: 11.24% | Max change: 210.74%
+Fundamental_Period | UNSTABLE_EXCLUDE | Stability: 42.50% | Mean change: 15.44% | Max change: 138.05%
+GLCM_Contrast | UNSTABLE_EXCLUDE | Stability: 34.70% | Mean change: 24.55% | Max change: 396.88%
+GLCM_Correlation | UNSTABLE_EXCLUDE | Stability: 59.88% | Mean change: 20.43% | Max change: 3459.25%
+GLCM_Energy | UNSTABLE_EXCLUDE | Stability: 48.04% | Mean change: 41.78% | Max change: 1936.70%
+GLCM_Entropy | STABLE | Stability: 89.82% | Mean change: 4.31% | Max change: 63.51%
+GLCM_Homogeneity | STABLE | Stability: 81.96% | Mean change: 6.27% | Max change: 59.86%
+GLCM_Maximum_Probability | UNSTABLE_EXCLUDE | Stability: 58.21% | Mean change: 20.80% | Max change: 970.71%
+LBP_Entropy | STABLE | Stability: 84.81% | Mean change: 5.73% | Max change: 100.00%
+LBP_Mean | STABLE | Stability: 97.14% | Mean change: 2.24% | Max change: 93.77%
+LBP_Uniformity | UNSTABLE_EXCLUDE | Stability: 41.99% | Mean change: 36.24% | Max change: 1124.50%
+LBP_Variance | STABLE | Stability: 92.14% | Mean change: 3.29% | Max change: 100.00%
+Radial_Mean | UNSTABLE_EXCLUDE | Stability: 47.38% | Mean change: 12.87% | Max change: 94.63%
+Radial_Variance | UNSTABLE_EXCLUDE | Stability: 54.40% | Mean change: 11.03% | Max change: 73.20%
+Spectral_Energy | UNSTABLE_EXCLUDE | Stability: 11.61% | Mean change: 27.01% | Max change: 191.03%
+Spectral_Entropy | STABLE | Stability: 99.88% | Mean change: 2.40% | Max change: 13.60%
+Statistical_Entropy | STABLE | Stability: 95.18% | Mean change: 2.78% | Max change: 68.65%
+Statistical_Mean | UNSTABLE_EXCLUDE | Stability: 79.11% | Mean change: 13.80% | Max change: 1185.99%
+Statistical_Smoothness | UNSTABLE_EXCLUDE | Stability: 65.24% | Mean change: 13.35% | Max change: 779.30%
+Statistical_Third_Moment | UNSTABLE_EXCLUDE | Stability: 52.38% | Mean change: 36.57% | Max change: 3533.53%
+Statistical_Uniformity | UNSTABLE_EXCLUDE | Stability: 79.52% | Mean change: 7.38% | Max change: 172.44%
+Statistical_Variance | UNSTABLE_EXCLUDE | Stability: 68.51% | Mean change: 10.87% | Max change: 610.99%
+
+STABLE FEATURES
+---------------------------------------------------------------------------
+Angular_Mean
+Angular_Variance
+GLCM_Entropy
+GLCM_Homogeneity
+LBP_Entropy
+LBP_Mean
+LBP_Variance
+Spectral_Entropy
+Statistical_Entropy
+
+UNSTABLE FEATURES TO EXCLUDE
+---------------------------------------------------------------------------
+Dominant_Frequency
+Dominant_Orientation
+Fundamental_Period
+GLCM_Contrast
+GLCM_Correlation
+GLCM_Energy
+GLCM_Maximum_Probability
+LBP_Uniformity
+Radial_Mean
+Radial_Variance
+Spectral_Energy
+Statistical_Mean
+Statistical_Smoothness
+Statistical_Third_Moment
+Statistical_Uniformity
+Statistical_Variance
