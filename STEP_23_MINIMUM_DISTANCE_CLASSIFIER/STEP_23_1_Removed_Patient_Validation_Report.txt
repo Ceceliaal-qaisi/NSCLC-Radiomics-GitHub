@@ -1,0 +1,39 @@
+PROJECT 7 - RADIOMICS
+STEP 23.1 - REMOVED PATIENT CHECK
+===========================================================================
+
+STEP 21 total patients: 420
+Usable patients: 419
+Removed / unusable patients: 1
+
+PATIENT IDENTIFIER
+PatientID
+
+TARGET
+Two_Year_Survival
+
+CLASSIFICATION FEATURES
+- Angular_Mean
+- Angular_Variance
+- GLCM_Entropy
+- GLCM_Homogeneity
+- LBP_Entropy
+- LBP_Mean
+- LBP_Variance
+- Spectral_Entropy
+- Statistical_Entropy
+
+REMOVED PATIENTS
+
+PatientID: LUNG1-024
+Two_Year_Survival: 1
+Missing / invalid features: Angular_Mean, Angular_Variance, Spectral_Entropy
+
+STEP 23 PREDICTION CHECK
+STEP 23 predicted patients: 419
+Removed patients found in STEP 23: 0
+PASS - No removed patient was used by STEP 23.
+
+IMPORTANT:
+This step is a validation/check step only.
+No classifier was trained in STEP 23.1.
