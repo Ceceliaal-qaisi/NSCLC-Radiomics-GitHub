@@ -1,0 +1,31 @@
+PROJECT 7 - RADIOMICS
+STEP 15 - FIX FINAL STABLE FEATURE MATRIX
+===========================================================================
+
+Patients: 422
+Unique Patient_ID: 422
+
+FEATURE COVERAGE
+---------------------------------------------------------------------------
+            Feature  Valid  Missing  Coverage_Percent
+       Angular_Mean    420        2         99.526066
+   Angular_Variance    420        2         99.526066
+       GLCM_Entropy    421        1         99.763033
+   GLCM_Homogeneity    421        1         99.763033
+        LBP_Entropy    421        1         99.763033
+           LBP_Mean    421        1         99.763033
+       LBP_Variance    421        1         99.763033
+   Spectral_Entropy    420        2         99.526066
+Statistical_Entropy    421        1         99.763033
+
+MISSING FEATURES TARGETED
+---------------------------------------------------------------------------
+GLCM_Entropy
+GLCM_Homogeneity
+LBP_Entropy
+LBP_Mean
+LBP_Variance
+
+No DICOM processing was performed.
+No classifier was trained.
+No feature selection was performed.
