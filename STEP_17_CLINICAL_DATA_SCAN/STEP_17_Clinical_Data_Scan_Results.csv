@@ -1,0 +1,2 @@
+File,Rows,Columns,Expected_Patients,Missing_Columns,Duplicate_Patient_IDs,Missing_Patient_IDs,Status
+C:\Users\CeCe\Downloads\NSCLC-Radiomics-Lung1.clinical-version3-Oct-2019.csv,422,10,422,,0,0,VALID_CLINICAL_DATASET

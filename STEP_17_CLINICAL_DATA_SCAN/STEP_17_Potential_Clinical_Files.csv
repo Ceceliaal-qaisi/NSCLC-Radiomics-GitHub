@@ -1,0 +1,2 @@
+File,File_Name,Rows_Read,Number_of_Columns,Patient_ID_Columns,Clinical_Outcome_Columns,Potential_Clinical_File,Validation_Status
+C:\Users\CeCe\Downloads\NSCLC-Radiomics-Lung1.clinical-version3-Oct-2019.csv,NSCLC-Radiomics-Lung1.clinical-version3-Oct-2019.csv,422,10,PatientID,age | clinical.T.Stage | Clinical.N.Stage | Clinical.M.Stage | Overall.Stage | Histology | gender | Survival.time | deadstatus.event,YES,VALID_CLINICAL_DATASET

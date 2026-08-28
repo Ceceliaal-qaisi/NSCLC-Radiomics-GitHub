@@ -1,0 +1,18 @@
+PROJECT 7 - RADIOMICS
+STEP 17 - CLINICAL DATA SCAN
+===============================================
+
+Clinical file:
+C:\Users\CeCe\Downloads\NSCLC-Radiomics-Lung1.clinical-version3-Oct-2019.csv
+
+Rows: 422
+Columns: 10
+Expected patients: 422
+Duplicate Patient IDs: 0
+Missing Patient IDs: 0
+
+Missing columns:
+NONE
+
+FINAL STATUS:
+VALID_CLINICAL_DATASET
