@@ -1,0 +1,50 @@
+PROJECT 7 - RADIOMICS
+STEP 27 - RANDOM FOREST CLASSIFIER
+===========================================================================
+
+METHOD:
+Random Forest classifier
+
+ENDPOINT:
+Two-Year Survival binary endpoint
+
+DATASET:
+Original rows: 420
+Usable patients: 419
+Removed rows: 1
+
+CROSS-VALIDATION:
+Stratified patient-level 5-fold CV
+Fold assignments imported from STEP 22
+Random seed: 42
+
+FEATURE SELECTION:
+SelectKBest using ANOVA F-test
+Five best features selected separately inside each training fold.
+Validation patients were not used for feature selection.
+
+NORMALIZATION:
+Not required for Random Forest.
+
+RANDOM FOREST PARAMETERS:
+Number of trees: 500
+Criterion: Gini
+Class weight: balanced
+Random seed: 42
+
+OVERALL OUT-OF-FOLD RESULTS:
+Patients evaluated: 419
+Accuracy: 0.587112
+Sensitivity: 0.505952
+Specificity: 0.641434
+AUC: 0.580689
+TN: 161
+FP: 90
+FN: 83
+TP: 85
+
+METHODOLOGICAL NOTE:
+Patient-level fold assignments were imported from STEP 22.
+Feature selection was performed inside each training fold.
+No validation patient was used for feature selection.
+Random Forest does not require feature normalization.

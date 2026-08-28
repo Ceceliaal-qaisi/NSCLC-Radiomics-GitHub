@@ -1,0 +1,2 @@
+Classifier,Patients_Evaluated,Accuracy,Sensitivity,Specificity,AUC,Number_of_Trees,Criterion,Class_Weight,Number_of_Folds,Random_Seed,Feature_Selection,Normalization
+Random Forest,419,0.5871121718377088,0.5059523809523809,0.6414342629482072,0.580689148169228,500,Gini,balanced,5,42,SelectKBest inside training fold,Not required for Random Forest
