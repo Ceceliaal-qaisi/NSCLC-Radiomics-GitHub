@@ -1,0 +1,64 @@
+PROJECT 7 - RADIOMICS
+STEP 10 - STATISTICAL TEXTURE DESCRIPTORS
+MULTI-PATIENT DICOM SEG PROCESSING REPORT
+===========================================================================
+
+Root directory:
+C:\Users\CeCe\Downloads\nsclc_radiomics
+
+Total patient directories: 422
+Successful patients: 421
+Failed patients: 1
+
+GTV-1 SEGMENT SEARCH KEYWORDS
+---------------------------------------------------------------------------
+gtv-1
+gtv1
+gtv 1
+neoplasm
+
+FEATURES
+---------------------------------------------------------------------------
+Statistical_Mean
+Statistical_Variance
+Statistical_Smoothness
+Statistical_Third_Moment
+Statistical_Uniformity
+Statistical_Entropy
+
+FORMULAS
+---------------------------------------------------------------------------
+Mean:
+m = sum[z_i * p(z_i)]
+
+Variance:
+sigma^2 = sum[(z_i - m)^2 * p(z_i)]
+
+Normalized variance:
+sigma_norm^2 = sigma^2 / (intensity_range)^2
+
+Smoothness:
+R = 1 - 1/(1 + sigma_norm^2)
+
+Third moment:
+mu_3 = sum[(z_i - m)^3 * p(z_i)]
+
+Uniformity:
+U = sum[p(z_i)^2]
+
+Entropy:
+e = -sum[p(z_i) * log2(p(z_i))]
+
+OUTPUT FILES
+---------------------------------------------------------------------------
+Combined dataset:
+C:\Users\CeCe\Downloads\nsclc_radiomics\STEP_10_STATISTICAL_TEXTURE_ALL_PATIENTS\STEP_10_All_Patients_Statistical_Features.csv
+
+Processing status:
+C:\Users\CeCe\Downloads\nsclc_radiomics\STEP_10_STATISTICAL_TEXTURE_ALL_PATIENTS\STEP_10_Patient_Processing_Status.csv
+
+Feature coverage:
+C:\Users\CeCe\Downloads\nsclc_radiomics\STEP_10_STATISTICAL_TEXTURE_ALL_PATIENTS\STEP_10_Feature_Coverage.csv
+
+Report:
+C:\Users\CeCe\Downloads\nsclc_radiomics\STEP_10_STATISTICAL_TEXTURE_ALL_PATIENTS\STEP_10_MultiPatient_Statistical_Texture_Report.txt
