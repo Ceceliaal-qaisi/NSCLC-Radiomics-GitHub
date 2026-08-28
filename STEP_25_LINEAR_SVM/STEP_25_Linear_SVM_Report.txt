@@ -1,0 +1,55 @@
+PROJECT 7 - RADIOMICS
+STEP 25 - LINEAR SVM CLASSIFIER
+===========================================================================
+
+METHODOLOGY
+---------------------------------------------------------------------------
+Endpoint: Two-Year Survival
+Classifier: Support Vector Machine
+Kernel: Linear
+Cross-validation: Stratified patient-level 5-fold CV
+Random seed: 42
+Feature selection: Performed inside each training fold
+Normalization: Training-fold mean/std only
+Data leakage prevention: Yes
+
+DATASET
+---------------------------------------------------------------------------
+Original STEP 21 patients: 420
+Usable patients evaluated: 419
+Excluded patients: 1
+Class 0: 251
+Class 1: 168
+
+OVERALL RESULTS
+---------------------------------------------------------------------------
+Accuracy: 0.596659
+Sensitivity: 0.119048
+Specificity: 0.916335
+AUC: 0.527616
+TN: 230
+FP: 21
+FN: 148
+TP: 20
+
+FOLD RESULTS
+---------------------------------------------------------------------------
+ Fold  Training_Patients  Validation_Patients  Selected_Feature_Count  Accuracy  Sensitivity  Specificity      AUC  TN  FP  FN  TP
+    1                334                   85                       9  0.611765     0.264706     0.843137 0.529412  43   8  25   9
+    2                336                   83                       9  0.566265     0.121212     0.860000 0.530303  43   7  29   4
+    3                335                   84                       9  0.547619     0.058824     0.880000 0.595294  44   6  32   2
+    4                335                   84                       9  0.595238     0.000000     1.000000 0.245882  50   0  34   0
+    5                336                   83                       9  0.662651     0.151515     1.000000 0.633333  50   0  28   5
+
+FEATURE SELECTION
+---------------------------------------------------------------------------
+Fold 1: Angular_Mean, Angular_Variance, GLCM_Entropy, GLCM_Homogeneity, LBP_Entropy, LBP_Mean, LBP_Variance, Spectral_Entropy, Statistical_Entropy
+Fold 2: Angular_Mean, Angular_Variance, GLCM_Entropy, GLCM_Homogeneity, LBP_Entropy, LBP_Mean, LBP_Variance, Spectral_Entropy, Statistical_Entropy
+Fold 3: Angular_Mean, Angular_Variance, GLCM_Entropy, GLCM_Homogeneity, LBP_Entropy, LBP_Mean, LBP_Variance, Spectral_Entropy, Statistical_Entropy
+Fold 4: Angular_Mean, Angular_Variance, GLCM_Entropy, GLCM_Homogeneity, LBP_Entropy, LBP_Mean, LBP_Variance, Spectral_Entropy, Statistical_Entropy
+Fold 5: Angular_Mean, Angular_Variance, GLCM_Entropy, GLCM_Homogeneity, LBP_Entropy, LBP_Mean, LBP_Variance, Spectral_Entropy, Statistical_Entropy
+
+NOTE
+---------------------------------------------------------------------------
+Feature selection was performed independently inside each training fold.
+Validation patients were not used for feature selection or normalization.

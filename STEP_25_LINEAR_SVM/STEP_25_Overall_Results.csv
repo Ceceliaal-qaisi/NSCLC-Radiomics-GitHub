@@ -1,0 +1,2 @@
+Classifier,Patients_Evaluated,Accuracy,Sensitivity,Specificity,AUC,TN,FP,FN,TP,Number_of_Folds,Random_Seed,Feature_Selection,Normalization,Kernel
+Linear SVM,419,0.5966587112171837,0.11904761904761904,0.9163346613545816,0.5276157275659267,230,21,148,20,5,42,Inside training folds,Training-fold mean/std only,Linear
