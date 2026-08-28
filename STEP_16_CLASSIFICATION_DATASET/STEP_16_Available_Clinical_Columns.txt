@@ -1,0 +1,20 @@
+PROJECT 7 - RADIOMICS
+STEP 16 - AVAILABLE CLINICAL COLUMNS
+===========================================================================
+
+Selected clinical file:
+C:\Users\CeCe\Downloads\nsclc_radiomics\LUNG1-001\STEP_11_GLCM_TEXTURE\GTV1_GLCM_summary.csv
+
+Matched patients: 1
+
+Available clinical columns:
+Patient_ID
+Contrast
+Correlation
+Energy
+Homogeneity
+Entropy
+Maximum_Probability
+Tumor_Voxels
+Tumor_Slices
+Quantization_Levels

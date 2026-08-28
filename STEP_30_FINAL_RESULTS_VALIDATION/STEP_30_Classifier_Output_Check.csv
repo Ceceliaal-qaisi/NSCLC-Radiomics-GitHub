@@ -1,0 +1,7 @@
+Classifier,Overall_Result_File,Status
+Minimum Distance,STEP_23_Overall_Results.csv,FOUND
+Gaussian Bayes,STEP_24_Overall_Results.csv,FOUND
+Linear SVM,STEP_25_Overall_Results.csv,FOUND
+RBF SVM,STEP_26_Overall_Results.csv,FOUND
+Random Forest,STEP_27_Overall_Results.csv,FOUND
+Small CNN,STEP_28_Overall_Results.csv,FOUND

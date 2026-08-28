@@ -1,0 +1,30 @@
+PROJECT 7 - RADIOMICS
+STEP 29 - FINAL EVALUATION AND CLASSIFIER COMPARISON
+======================================================================
+
+FINAL CLASSIFIER COMPARISON
+----------------------------------------------------------------------
+      Classifier  Patients_Evaluated  Accuracy  Sensitivity  Specificity    AUC
+Minimum Distance                 419    0.5680       0.5238       0.5976    NaN
+  Gaussian Bayes                 419    0.5704       0.3929       0.6892    NaN
+      Linear SVM                 419    0.5967       0.1190       0.9163 0.5276
+         RBF SVM                 419    0.5800       0.1726       0.8526 0.5357
+   Random Forest                 419    0.5871       0.5060       0.6414 0.5807
+       Small CNN                 419    0.5776       0.1905       0.8367 0.5660
+
+BEST CLASSIFIER BY METRIC
+----------------------------------------------------------------------
+Accuracy: Linear SVM (0.5967)
+Sensitivity: Minimum Distance (0.5238)
+Specificity: Linear SVM (0.9163)
+AUC: Random Forest (0.5807)
+
+METHODOLOGICAL NOTES
+----------------------------------------------------------------------
+STEP 29 is an evaluation and comparison step only.
+No classifier was retrained.
+No feature selection was performed.
+No normalization was performed.
+Previously generated patient-level results were used.
+Patient-count differences between classifiers are reported explicitly.
+AUC is not available for every classifier and is reported as missing where unavailable.

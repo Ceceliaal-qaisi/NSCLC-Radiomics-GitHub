@@ -1,0 +1,5 @@
+Classifier,AUC,AUC_Rank
+Small CNN,0.5982,1
+Random Forest,0.5807,2
+RBF SVM,0.5357,3
+Linear SVM,0.5276,4

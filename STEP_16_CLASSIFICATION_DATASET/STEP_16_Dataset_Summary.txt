@@ -1,0 +1,34 @@
+PROJECT 7 - RADIOMICS
+STEP 16 - CLASSIFICATION DATASET SUMMARY
+===========================================================================
+
+Feature patients: 422
+Clinical patients: 1
+Matched patients: 1
+
+Stable radiomic features:
+- Angular_Mean
+- Angular_Variance
+- GLCM_Entropy
+- GLCM_Homogeneity
+- LBP_Entropy
+- LBP_Mean
+- LBP_Variance
+- Spectral_Entropy
+- Statistical_Entropy
+
+Clinical columns available:
+- Patient_ID
+- Contrast
+- Correlation
+- Energy
+- Homogeneity
+- Entropy
+- Maximum_Probability
+- Tumor_Voxels
+- Tumor_Slices
+- Quantization_Levels
+
+IMPORTANT:
+The classification target was NOT assumed automatically.
+The available clinical/outcome columns must be reviewed before selecting the final classification target.

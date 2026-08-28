@@ -1,0 +1,10 @@
+Feature,Patients_Available,Patients_Missing,Total_Patients,Coverage_Percent
+Angular_Mean,420,2,422,99.52606635071089
+Angular_Variance,420,2,422,99.52606635071089
+GLCM_Entropy,0,422,422,0.0
+GLCM_Homogeneity,0,422,422,0.0
+LBP_Entropy,1,421,422,0.23696682464454977
+LBP_Mean,1,421,422,0.23696682464454977
+LBP_Variance,1,421,422,0.23696682464454977
+Spectral_Entropy,420,2,422,99.52606635071089
+Statistical_Entropy,421,1,422,99.76303317535546

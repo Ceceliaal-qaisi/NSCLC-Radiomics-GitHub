@@ -1,0 +1,31 @@
+PROJECT 7 - RADIOMICS
+STEP 18 - FINAL PHASE 3 DATASET CHECK
+===========================================================================
+
+Total rows: 422
+Unique patients: 422
+Duplicate Patient_ID rows: 0
+
+FINAL STABLE FEATURES
+---------------------------------------------------------------------------
+Angular_Mean
+Angular_Variance
+GLCM_Entropy
+GLCM_Homogeneity
+LBP_Entropy
+LBP_Mean
+LBP_Variance
+Spectral_Entropy
+Statistical_Entropy
+
+METHODOLOGICAL RULES
+---------------------------------------------------------------------------
+Patient-level samples only.
+No slice-level samples are treated as independent patients.
+Only final stable radiomic features are used.
+No feature selection is performed at this stage.
+Feature selection will be performed inside each cross-validation training fold.
+Normalization will be fitted on training data only.
+Cross-validation will be stratified and patient-level.
+Number of folds: 5.
+Clinical-only baseline will use stage, age, and histology.

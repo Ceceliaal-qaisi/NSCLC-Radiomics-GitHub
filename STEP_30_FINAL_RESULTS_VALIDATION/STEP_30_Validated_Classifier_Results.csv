@@ -1,0 +1,7 @@
+Classifier,Patients_Evaluated,Accuracy,Sensitivity,Specificity,AUC
+Minimum Distance,419,0.568,0.5238,0.5976,
+Gaussian Bayes,419,0.5704,0.3929,0.6892,
+Linear SVM,419,0.5967,0.119,0.9163,0.5276
+RBF SVM,419,0.58,0.1726,0.8526,0.5357
+Random Forest,419,0.5871,0.506,0.6414,0.5807
+Small CNN,420,0.5714,0.503,0.6175,0.5982

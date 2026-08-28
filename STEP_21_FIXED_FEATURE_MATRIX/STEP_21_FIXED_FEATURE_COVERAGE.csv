@@ -1,0 +1,10 @@
+Feature,Valid,Missing,Coverage_Percent
+Angular_Mean,298,0,100.0
+Angular_Variance,298,0,100.0
+GLCM_Entropy,0,298,0.0
+GLCM_Homogeneity,0,298,0.0
+LBP_Entropy,0,298,0.0
+LBP_Mean,0,298,0.0
+LBP_Variance,0,298,0.0
+Spectral_Entropy,298,0,100.0
+Statistical_Entropy,298,0,100.0

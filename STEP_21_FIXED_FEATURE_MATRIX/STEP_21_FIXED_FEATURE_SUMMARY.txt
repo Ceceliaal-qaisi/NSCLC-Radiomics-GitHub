@@ -1,0 +1,23 @@
+PROJECT 7 - RADIOMICS
+STEP 21 FIX - FEATURE MATRIX
+========================================
+
+Classification patients: 298
+Required stable features: 9
+
+FEATURE COVERAGE
+----------------------------------------
+Angular_Mean: 298 valid / 0 missing (100.00%)
+Angular_Variance: 298 valid / 0 missing (100.00%)
+GLCM_Entropy: 0 valid / 298 missing (0.00%)
+GLCM_Homogeneity: 0 valid / 298 missing (0.00%)
+LBP_Entropy: 0 valid / 298 missing (0.00%)
+LBP_Mean: 0 valid / 298 missing (0.00%)
+LBP_Variance: 0 valid / 298 missing (0.00%)
+Spectral_Entropy: 298 valid / 0 missing (100.00%)
+Statistical_Entropy: 298 valid / 0 missing (100.00%)
+
+CLASS DISTRIBUTION
+----------------------------------------
+Class 0: 251 patients
+Class 1: 47 patients
