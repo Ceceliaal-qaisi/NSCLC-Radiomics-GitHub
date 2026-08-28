@@ -1,0 +1,2 @@
+Patient_ID,Two_Year_Survival,Missing_Features
+LUNG1-024,1,Angular_Mean; Angular_Variance; Spectral_Entropy

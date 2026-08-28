@@ -1,0 +1,2 @@
+Classifier,Patients,Accuracy,Sensitivity,Specificity,Precision,TP,TN,FP,FN
+Minimum-Distance,419,0.568019093078759,0.5238095238095238,0.5976095617529881,0.4656084656084656,88,150,101,80

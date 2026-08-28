@@ -1,0 +1,15 @@
+PROJECT 7 - RADIOMICS
+STEP 23 - FEATURES USED BY MINIMUM-DISTANCE CLASSIFIER
+======================================================================
+
+Angular_Mean
+Angular_Variance
+GLCM_Entropy
+GLCM_Homogeneity
+LBP_Entropy
+LBP_Mean
+LBP_Variance
+Spectral_Entropy
+Statistical_Entropy
+
+No feature selection was performed in STEP 23.
