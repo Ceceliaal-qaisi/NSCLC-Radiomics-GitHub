@@ -1,0 +1,82 @@
+PROJECT 7 - RADIOMICS
+STEP 20 - TARGET AND DATA QUALITY CHECK
+===========================================================================
+
+SOURCE DATASET
+C:\Users\CeCe\Downloads\nsclc_radiomics\STEP_19_MERGED_RADIOMICS_CLINICAL\STEP_19_Final_Radiomics_Clinical_Dataset.csv
+
+Total patients: 422
+Total columns: 19
+
+Stable radiomic features:
+- Angular_Mean
+- Angular_Variance
+- GLCM_Entropy
+- GLCM_Homogeneity
+- LBP_Entropy
+- LBP_Mean
+- LBP_Variance
+- Spectral_Entropy
+- Statistical_Entropy
+
+Clinical and outcome variables:
+- PatientID
+- age
+- clinical.T.Stage
+- Clinical.N.Stage
+- Clinical.M.Stage
+- Overall.Stage
+- Histology
+- gender
+- Survival.time
+- deadstatus.event
+
+Target candidates:
+- deadstatus.event: binary outcome
+- Overall.Stage: multiclass clinical stage
+- Histology: multiclass tumor type
+- Survival.time: survival outcome, not ordinary binary classification
+
+Death status distribution:
+0: 49 (11.61%)
+1: 373 (88.39%)
+
+Overall Stage distribution:
+IIIb: 176 (41.71%)
+IIIa: 112 (26.54%)
+I: 93 (22.04%)
+II: 40 (9.48%)
+nan: 1 (0.24%)
+
+Histology distribution:
+squamous cell carcinoma: 152 (36.02%)
+large cell: 114 (27.01%)
+nos: 63 (14.93%)
+adenocarcinoma: 51 (12.09%)
+nan: 42 (9.95%)
+
+Survival Time Quality:
+Missing: 0
+Minimum: 10
+Maximum: 4454
+Mean: 988.8578199052133
+Median: 545.5
+
+Patient ID Check:
+Patient ID column: PatientID
+Unique Patient IDs: 422
+Total rows: 422
+Duplicate Patient IDs: 0
+Missing Patient IDs: 0
+LUNG1 IDs: 422
+Non-LUNG1 IDs: 0
+
+Data Quality Status: VALID
+
+IMPORTANT:
+One row represents one patient.
+No slice-level observations are treated as independent patients.
+Target selection is not performed in STEP 20.
+deadstatus.event is a binary outcome candidate.
+Overall.Stage and Histology are multiclass outcome candidates.
+Survival.time is a survival outcome and should not be treated as an ordinary binary target.
