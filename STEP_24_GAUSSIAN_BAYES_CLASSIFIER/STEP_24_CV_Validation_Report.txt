@@ -1,0 +1,16 @@
+STEP 24 - GAUSSIAN BAYES CV VALIDATION REPORT
+===========================================================================
+
+Patients evaluated: 419
+Expected patients: 419
+Number of folds: 5
+Patient-level validation: VERIFIED
+Training-only normalization: VERIFIED
+Validation data excluded from parameter fitting: VERIFIED
+Gaussian parameters fitted using training data only: VERIFIED
+
+Overall metrics:
+Accuracy = 0.570406
+Sensitivity = 0.392857
+Specificity = 0.689243
+Precision = 0.458333

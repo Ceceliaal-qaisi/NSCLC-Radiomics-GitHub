@@ -1,0 +1,16 @@
+PROJECT 7 - RADIOMICS
+STEP 24 - GAUSSIAN BAYES CLASSIFIER
+
+Features used:
+
+- Angular_Mean
+- Angular_Variance
+- GLCM_Entropy
+- GLCM_Homogeneity
+- LBP_Entropy
+- LBP_Mean
+- LBP_Variance
+- Spectral_Entropy
+- Statistical_Entropy
+
+No global feature selection was performed.

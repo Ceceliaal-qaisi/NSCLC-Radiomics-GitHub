@@ -1,0 +1,56 @@
+PROJECT 7 - RADIOMICS
+STEP 24 - GAUSSIAN BAYES CLASSIFIER
+===========================================================================
+
+CLASSIFICATION TASK
+Two-Year Survival Binary Classification
+
+PATIENTS
+Original STEP 21 classified patients: 420
+Usable patients after feature validation: 419
+One patient excluded because at least one required radiomic feature was missing/non-numeric.
+
+CLASSIFIER
+Gaussian Bayes Classifier
+Independent Gaussian feature likelihoods
+Classification based on maximum posterior log-probability.
+
+CROSS-VALIDATION
+Stratified patient-level 5-fold cross-validation
+Random state: 42
+
+NORMALIZATION
+Feature mean and standard deviation were calculated using training patients only within each fold.
+The same training parameters were applied to the corresponding validation patients.
+
+GAUSSIAN PARAMETERS
+Class-specific feature means and variances were estimated from training patients only.
+A small numerical epsilon was used to prevent division by zero for zero-variance features.
+
+FEATURE SELECTION
+No feature selection was performed in STEP 24.
+Any future feature selection must be performed inside the training portion of each CV fold.
+
+FEATURES
+- Angular_Mean
+- Angular_Variance
+- GLCM_Entropy
+- GLCM_Homogeneity
+- LBP_Entropy
+- LBP_Mean
+- LBP_Variance
+- Spectral_Entropy
+- Statistical_Entropy
+
+OVERALL RESULTS
+Patients evaluated: 419
+Accuracy: 0.570406
+Sensitivity: 0.392857
+Specificity: 0.689243
+Precision: 0.458333
+
+CONFUSION MATRIX
+TN = 173
+FP = 78
+FN = 102
+TP = 66
