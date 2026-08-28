@@ -1,0 +1,174 @@
+
+PROJECT 7 - RADIOMICS
+STEP 22 - STRATIFIED PATIENT-LEVEL 5-FOLD CROSS-VALIDATION
+===========================================================================
+
+INPUT DATASET
+------------------------------------------------------------------------
+
+Input:
+C:\Users\CeCe\Downloads\nsclc_radiomics\STEP_21_TWO_YEAR_SURVIVAL_ENDPOINT\STEP_21_Two_Year_Survival_Classification_Dataset.csv
+
+Total patients:
+420
+
+Unique patients:
+420
+
+Duplicate Patient_ID rows:
+0
+
+
+TARGET
+------------------------------------------------------------------------
+
+Target:
+Two_Year_Survival
+
+Class 0:
+Death before 2 years
+
+Class 1:
+Survival >= 2 years
+
+Class 0 patients:
+251
+
+Class 1 patients:
+169
+
+Class 0 percentage:
+59.76%
+
+Class 1 percentage:
+40.24%
+
+
+CROSS-VALIDATION
+------------------------------------------------------------------------
+
+Number of folds:
+5
+
+Random seed:
+42
+
+Method:
+Stratified patient-level cross-validation
+
+Each patient assigned to exactly one validation fold.
+
+
+FOLD DISTRIBUTION
+------------------------------------------------------------------------
+
+Fold 1
+Training patients: 335
+Training class 0: 200
+Training class 1: 135
+Validation patients: 85
+Validation class 0: 51
+Validation class 1: 34
+
+Fold 2
+Training patients: 336
+Training class 0: 201
+Training class 1: 135
+Validation patients: 84
+Validation class 0: 50
+Validation class 1: 34
+
+Fold 3
+Training patients: 336
+Training class 0: 201
+Training class 1: 135
+Validation patients: 84
+Validation class 0: 50
+Validation class 1: 34
+
+Fold 4
+Training patients: 336
+Training class 0: 201
+Training class 1: 135
+Validation patients: 84
+Validation class 0: 50
+Validation class 1: 34
+
+Fold 5
+Training patients: 337
+Training class 0: 201
+Training class 1: 136
+Validation patients: 83
+Validation class 0: 50
+Validation class 1: 33
+
+
+METHODOLOGICAL CHECKS
+------------------------------------------------------------------------
+
+PASS - Patient-level samples.
+PASS - One row per patient.
+PASS - Exactly 5 folds.
+PASS - Stratification by Two_Year_Survival.
+PASS - Every patient assigned to exactly one validation fold.
+PASS - No patient appears in multiple validation folds.
+PASS - No feature selection performed.
+PASS - No normalization performed.
+PASS - No classifier trained.
+
+IMPORTANT FOR NEXT STEPS
+------------------------------------------------------------------------
+
+Feature selection must be performed INSIDE each training fold.
+
+Normalization parameters must be estimated using TRAINING
+patients only and then applied to the validation patients.
+
+The same fold assignments must be reused for all classifiers
+to ensure a fair comparison.
+
+NEXT STEP
+------------------------------------------------------------------------
+
+STEP 23:
+Minimum-Distance Classifier from scratch.
+
+After that:
+Gaussian Bayes Classifier from scratch.
+
+Then:
+Linear SVM
+RBF SVM
+Random Forest
+CNN on tumour patches
+
+Performance evaluation must include:
+- ROC curve
+- AUC
+- Bootstrap confidence intervals
+- Sensitivity
+- Specificity
+- Calibration
+
+Clinical-only baseline:
+- Stage
+- Age
+- Histology
+
+===========================================================================
+
+OUTPUT FILES
+------------------------------------------------------------------------
+
+Patient fold assignments:
+C:\Users\CeCe\Downloads\nsclc_radiomics\STEP_22_STRATIFIED_PATIENT_CV\STEP_22_Patient_Fold_Assignments.csv
+
+Fold distribution:
+C:\Users\CeCe\Downloads\nsclc_radiomics\STEP_22_STRATIFIED_PATIENT_CV\STEP_22_Fold_Class_Distribution.csv
+
+Summary:
+C:\Users\CeCe\Downloads\nsclc_radiomics\STEP_22_STRATIFIED_PATIENT_CV\STEP_22_CV_Summary.txt
+
+===========================================================================
+STEP 22 COMPLETE
+===========================================================================

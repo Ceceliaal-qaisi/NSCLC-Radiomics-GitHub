@@ -1,0 +1,27 @@
+PROJECT 7 - RADIOMICS
+STEP 22 - CROSS-VALIDATION VALIDATION REPORT
+===========================================================================
+
+STATUS: VALID
+
+Total patients: 420
+Class 0 patients: 251
+Class 1 patients: 169
+Number of folds: 5
+Random state: 42
+
+Patient-level validation:
+PASS - One row per patient.
+PASS - Every patient assigned exactly once to a validation fold.
+PASS - No patient appears in more than one validation fold.
+PASS - Class 0 distribution verified.
+PASS - Class 1 distribution verified.
+PASS - Five-fold training/validation structure verified.
+
+Data leakage prevention:
+Feature selection must occur inside each training fold only.
+Normalization must be fitted using training patients only.
+Validation data must remain unseen until evaluation.
+
+No classifier was trained in STEP 22.
+STEP 22 is a cross-validation preparation step.

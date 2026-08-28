@@ -1,0 +1,33 @@
+PROJECT 7 - RADIOMICS
+STEP 22 - STRATIFIED PATIENT-LEVEL CROSS-VALIDATION
+===========================================================================
+
+Total classified patients: 420
+Number of folds: 5
+Random state: 42
+
+Patient identifier:
+PatientID
+
+Target:
+Two_Year_Survival
+
+Class 0 = Death before 2 years
+Class 1 = Survived >= 2 years
+
+Validation strategy:
+Stratified patient-level cross-validation.
+
+Fold construction:
+Patients were shuffled independently within each target class using a fixed random seed.
+Patients were distributed across five folds using round-robin assignment.
+
+Leakage prevention:
+Feature selection must be performed inside the training portion of each fold.
+The validation portion must remain completely unseen during feature selection and model fitting.
+
+Normalization:
+Normalization parameters must be fitted using training patients only and then applied to validation patients.
+
+Classifier training:
+No classifier was trained in STEP 22.

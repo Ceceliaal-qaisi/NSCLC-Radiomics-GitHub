@@ -1,0 +1,15 @@
+Stable radiomic features available for feature selection inside CV:
+
+Angular_Mean
+Angular_Variance
+GLCM_Entropy
+GLCM_Homogeneity
+LBP_Entropy
+LBP_Mean
+LBP_Variance
+Spectral_Entropy
+Statistical_Entropy
+
+IMPORTANT:
+These features are candidate stable features.
+Any additional feature selection must be performed using training data inside each cross-validation fold only.
