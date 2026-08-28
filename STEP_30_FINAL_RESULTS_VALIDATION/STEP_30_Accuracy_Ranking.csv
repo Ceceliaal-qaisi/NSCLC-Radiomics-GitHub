@@ -2,6 +2,6 @@ Classifier,Accuracy,Accuracy_Rank
 Linear SVM,0.5967,1
 Random Forest,0.5871,2
 RBF SVM,0.58,3
-Small CNN,0.5714,4
+Small CNN,0.5776,4
 Gaussian Bayes,0.5704,5
 Minimum Distance,0.568,6

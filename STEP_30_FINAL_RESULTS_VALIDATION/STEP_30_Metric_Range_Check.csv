@@ -2,4 +2,4 @@ Metric,Valid_Values,Minimum,Maximum,Within_0_1
 Accuracy,6,0.568,0.5967,True
 Sensitivity,6,0.119,0.5238,True
 Specificity,6,0.5976,0.9163,True
-AUC,4,0.5276,0.5982,True
+AUC,4,0.5276,0.5807,True

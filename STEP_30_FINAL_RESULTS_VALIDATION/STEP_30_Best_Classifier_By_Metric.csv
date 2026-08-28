@@ -2,4 +2,4 @@ Metric,Best_Classifier,Value
 Accuracy,Linear SVM,0.5967
 Sensitivity,Minimum Distance,0.5238
 Specificity,Linear SVM,0.9163
-AUC,Small CNN,0.5982
+AUC,Random Forest,0.5807
