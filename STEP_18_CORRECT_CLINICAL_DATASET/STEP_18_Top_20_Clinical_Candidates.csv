@@ -1,0 +1,21 @@
+Score,File,Rows,Columns,Patient_ID_Columns,LUNG1_ID_Count,Clinical_Columns,LUNG1_Detected,Radiomics_Result_File
+185,STEP_10_STATISTICAL_TEXTURE_ALL_PATIENTS\STEP_10_Patient_Processing_Status.csv,422,7,Patient_ID,422,Status,True,False
+185,STEP_12_LBP_TEXTURE_ALL_PATIENTS\STEP_12_Patient_Processing_Status.csv,422,11,Patient_ID | Validation,422,Status,True,False
+185,STEP_13_GTV1_MASK_PREPARATION_STATUS.csv,422,7,Patient_ID,422,Status,True,False
+180,STEP_15_CLASSIFICATION_DATASET\STEP_15_Patient_Processing_Status.csv,422,2,Patient_ID,422,,True,False
+135,STEP_11_GLCM_ALL_PATIENTS\STEP_11_GLCM_Patient_Processing_Status.csv,422,9,Patient_ID,422,Status,True,True
+135,STEP_12_LBP_TEXTURE_ALL_PATIENTS\STEP_12_All_Patients_LBP_Features.csv,422,14,Patient_ID | Validation,422,Status,True,True
+85,STEP_12_LBP_TEXTURE_ALL_PATIENTS\STEP_12_Successful_Patients_LBP_Features.csv,421,14,Patient_ID | Validation,421,Status,True,True
+80,STEP_10_STATISTICAL_TEXTURE_ALL_PATIENTS\STEP_10_All_Patients_Statistical_Features.csv,421,7,Patient_ID,421,,True,True
+80,LUNG1-375\STEP_11_GLCM_TEXTURE\GTV1_GLCM_texture.csv,420,10,Patient_ID,420,,True,True
+60,LUNG1-349\STEP_11_GLCM_TEXTURE\GTV1_GLCM_texture.csv,468,10,Patient_ID,468,,True,True
+60,LUNG1-367\STEP_11_GLCM_TEXTURE\GTV1_GLCM_texture.csv,468,10,Patient_ID,468,,True,True
+60,LUNG1-396\STEP_11_GLCM_TEXTURE\GTV1_GLCM_texture.csv,468,10,Patient_ID,468,,True,True
+60,LUNG1-072\STEP_11_GLCM_TEXTURE\GTV1_GLCM_texture.csv,456,10,Patient_ID,456,,True,True
+60,LUNG1-091\STEP_11_GLCM_TEXTURE\GTV1_GLCM_texture.csv,456,10,Patient_ID,456,,True,True
+60,LUNG1-289\STEP_11_GLCM_TEXTURE\GTV1_GLCM_texture.csv,456,10,Patient_ID,456,,True,True
+60,LUNG1-097\STEP_11_GLCM_TEXTURE\GTV1_GLCM_texture.csv,444,10,Patient_ID,444,,True,True
+60,LUNG1-140\STEP_11_GLCM_TEXTURE\GTV1_GLCM_texture.csv,444,10,Patient_ID,444,,True,True
+60,LUNG1-149\STEP_11_GLCM_TEXTURE\GTV1_GLCM_texture.csv,444,10,Patient_ID,444,,True,True
+60,LUNG1-348\STEP_11_GLCM_TEXTURE\GTV1_GLCM_texture.csv,444,10,Patient_ID,444,,True,True
+60,LUNG1-004\STEP_11_GLCM_TEXTURE\GTV1_GLCM_texture.csv,432,10,Patient_ID,432,,True,True

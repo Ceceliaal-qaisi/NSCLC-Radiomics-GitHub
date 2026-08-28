@@ -1,0 +1,21 @@
+PROJECT 7 - RADIOMICS
+STEP 18 - CORRECT CLINICAL DATASET
+======================================================================
+
+SOURCE FILE:
+C:\Users\CeCe\Downloads\NSCLC-Radiomics-Lung1.clinical-version3-Oct-2019.csv
+
+FINAL CLINICAL DATASET:
+C:\Users\CeCe\Downloads\nsclc_radiomics\STEP_18_CORRECT_CLINICAL_DATASET\STEP_18_Correct_Clinical_Dataset.csv
+
+Rows: 422
+Columns: 10
+Expected patients: 422
+Duplicate Patient IDs: 0
+Missing Patient IDs: 0
+
+Missing columns:
+NONE
+
+STATUS:
+VALID_CORRECT_CLINICAL_DATASET
