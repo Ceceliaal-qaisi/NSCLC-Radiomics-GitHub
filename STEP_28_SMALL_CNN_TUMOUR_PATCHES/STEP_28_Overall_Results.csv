@@ -1,0 +1,2 @@
+Classifier,Patients_Evaluated,Accuracy,Sensitivity,Specificity,AUC,Number_of_Folds,Random_Seed,Epochs,Batch_Size,Patch_Size,Representation,Normalization,Data_Leakage_Prevention
+Small CNN,419,0.5775656324582339,0.19047619047619047,0.8366533864541833,0.565974198444318,5,42,20,16,32,3x3 radiomic feature matrix,Training-fold mean/std only,Yes

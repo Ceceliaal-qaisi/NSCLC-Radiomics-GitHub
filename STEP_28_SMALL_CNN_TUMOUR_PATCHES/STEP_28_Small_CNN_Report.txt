@@ -1,0 +1,42 @@
+PROJECT 7 - RADIOMICS
+STEP 28 - SMALL CNN TUMOR CLASSIFIER
+===========================================================================
+
+METHOD:
+Small Convolutional Neural Network
+Binary endpoint: Two-Year Survival
+
+CROSS-VALIDATION:
+Stratified patient-level 5-fold CV
+Fold assignments imported from STEP 22
+Random seed: 42
+
+INPUT REPRESENTATION:
+Nine radiomic features arranged as a deterministic 3x3 matrix.
+The CNN operates on this compact feature representation.
+
+NORMALIZATION:
+Training-fold mean/std only.
+
+CNN PARAMETERS:
+Epochs: 20
+Batch size: 16
+Learning rate: 0.001
+Architecture: Conv2D -> MaxPooling -> Conv2D -> Dense -> Dropout -> Output
+
+OVERALL RESULTS:
+Patients evaluated: 419
+Accuracy: 0.577566
+Sensitivity: 0.190476
+Specificity: 0.836653
+AUC: 0.565974
+
+CONFUSION MATRIX:
+TN: 210
+FP: 41
+FN: 136
+TP: 32
+
+METHODOLOGICAL NOTE:
+The validation patients were never used during CNN training.
+Normalization parameters were estimated independently from the training patients in each fold.
