@@ -1,0 +1,73 @@
+PROJECT 7 - RADIOMIC FEATURE EXTRACTION
+3-D TUMOR SHAPE FEATURES REPORT
+================================================================================
+
+SEGMENTATION
+--------------------------------------------------------------------------------
+Segmentation file:
+C:\Users\CeCe\Downloads\nsclc_radiomics\LUNG1-001\69331\GTV1_MASK.nrrd
+
+VOXEL INFORMATION
+--------------------------------------------------------------------------------
+Voxel count: 54639
+Voxel spacing X: 0.976562 mm
+Voxel spacing Y: 0.976562 mm
+Voxel spacing Z: 3.000000 mm
+Voxel volume: 2.861023 mm^3
+
+3-D FEATURES
+--------------------------------------------------------------------------------
+Tumor Volume:
+    156323.432922 mm^3
+    156.323433 cm^3
+
+Tumor Surface Area:
+    47026.962280 mm^2
+
+Surface-to-Volume Ratio:
+    0.300831176754 1/mm
+
+Sphericity:
+    0.298414499292
+
+SURFACE CALCULATION
+--------------------------------------------------------------------------------
+Exposed X faces: 12363
+Exposed Y faces: 2864
+Exposed Z faces: 2534
+
+FORMULAS
+--------------------------------------------------------------------------------
+Tumor Volume:
+V = N_voxels * dx * dy * dz
+
+Surface-to-Volume Ratio:
+S/V = Surface Area / Volume
+
+Sphericity:
+Psi = pi^(1/3) * (6V)^(2/3) / A
+
+INTERPRETATION
+--------------------------------------------------------------------------------
+Sphericity approaches 1 for a perfect sphere.
+Lower values indicate a less spherical and generally more irregular 3-D tumor shape.
+
+2-D VS 3-D FEATURES
+--------------------------------------------------------------------------------
+Area                         | 2-D   | Slice-based feature; does not directly generalize to 3-D
+Perimeter                    | 2-D   | Boundary length of one slice; does not directly generalize to 3-D
+Compactness                  | 2-D   | Defined using 2-D area and perimeter
+Circularity                  | 2-D   | Defined using 2-D area and perimeter
+Eccentricity                 | 2-D   | Based on 2-D shape geometry
+Solidity                     | 2-D   | Based on 2-D area and convex hull
+Hu Moments                   | 2-D   | Moment invariants computed from 2-D region geometry
+Tumor Volume                 | 3-D   | Measures the physical volume of the tumor
+Tumor Surface Area           | 3-D   | Measures the exposed 3-D tumor surface
+Surface-to-Volume Ratio      | 3-D   | Measures surface relative to tumor volume
+Sphericity                   | 3-D   | Measures similarity of tumor shape to a sphere
+
+IMPORTANT METHODOLOGICAL NOTE
+--------------------------------------------------------------------------------
+The 3-D features are computed from the complete binary tumor segmentation rather than from a single 2-D slice.
+The physical voxel dimensions are incorporated into the volume and surface calculations.
+The surface area uses the exposed faces of the segmented voxel geometry; therefore it is a voxel-based surface estimate and depends on segmentation resolution.

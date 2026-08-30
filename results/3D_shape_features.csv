@@ -1,0 +1,14 @@
+Feature,Value,Unit
+Tumor Voxels,54639,voxels
+Voxel Size X,0.9765625,mm
+Voxel Size Y,0.9765625,mm
+Voxel Size Z,3.0,mm
+Voxel Volume,2.86102294921875,mm^3
+Tumor Volume,156323.43292236328,mm^3
+Tumor Volume,156.32343292236328,cm^3
+Tumor Surface Area,47026.96228027344,mm^2
+Surface-to-Volume Ratio,0.30083117675408894,1/mm
+Sphericity,0.29841449929225367,dimensionless
+Exposed X Faces,12363,faces
+Exposed Y Faces,2864,faces
+Exposed Z Faces,2534,faces
